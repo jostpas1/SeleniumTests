@@ -1,0 +1,180 @@
+{
+  "id": "5430f6f8-a866-4744-abcf-036f5a7fe2c9",
+  "version": "2.0",
+  "name": "DevOpsDemo",
+  "url": "http://localhost:4200",
+  "tests": [{
+    "id": "17d1714e-a4c9-4245-bf74-0e505424324a",
+    "name": "Test neues Motorrad zur Garage hinzufügen",
+    "commands": [{
+      "id": "a339a4b1-9186-4c28-bee6-93a7b504e2e9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9852652-8c2a-4c5b-9bfc-140ad5743a3b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f18c73c5-2e97-4670-966b-fe466701506a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "296034ee-4ce5-4eaa-a88c-a9efdb66ce73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tile-red",
+      "targets": [
+        ["css=.tile-red", "css:finder"],
+        ["xpath=//path-button/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0543bd0f-6b1d-461b-ad2e-f53f544ac582",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div/span/span/path-textfield/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "5357cde1-194b-43b0-b14f-94a93056f249",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-sm-10 > .ng-untouched",
+      "targets": [
+        ["css=.col-sm-10 > .ng-untouched", "css:finder"],
+        ["xpath=//textarea[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div[2]/span/span/path-textfield/span/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testtext"
+    }, {
+      "id": "a44a49a8-1a80-451f-a739-9322d656aa2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b6db4b6-462f-4134-b63e-66c6a4f75f62",
+    "name": "Bestehenden Eintrag bearbeiten",
+    "commands": [{
+      "id": "8321d75f-caea-4de4-b8a8-5947a537b0ed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7935d248-96cd-4b98-9af9-d3673d9d3b95",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1176",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b2ce6e-79a1-4a01-88e8-5365025d2357",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b386abe-7c0d-456b-babc-9f157774e063",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(7) .card-body",
+      "targets": [
+        ["css=span:nth-child(7) .card-body", "css:finder"],
+        ["xpath=//span[7]/path-button-group/span/div/span/span/path-button/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9ecd01-5b30-4189-886e-ecfa65627c85",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-dirty",
+      "targets": [
+        ["css=.ng-dirty", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div/span/span/path-textfield/span/div/input", "xpath:idRelative"],
+        ["xpath=//span/div/input", "xpath:position"]
+      ],
+      "value": "Test 111"
+    }, {
+      "id": "f44d37b1-aac6-4c2f-a990-3011f1fa5874",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-sm-10 > .ng-untouched",
+      "targets": [
+        ["css=.col-sm-10 > .ng-untouched", "css:finder"],
+        ["xpath=//textarea[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[2]/div[2]/span/span/path-textfield/span/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Test 22"
+    }, {
+      "id": "8baf4a83-028a-48c1-b6b4-ab74770c12ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2dfae7e-f33a-4fd9-9bce-19136d999c60",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='myModal']/div/path-form/div/form/div[3]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fa07caa2-734b-4548-bd9d-336c4abe8712",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["17d1714e-a4c9-4245-bf74-0e505424324a"]
+  }],
+  "urls": ["http://localhost:4200/"],
+  "plugins": []
+}
