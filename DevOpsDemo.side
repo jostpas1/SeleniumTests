@@ -166,6 +166,34 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "1799addd-18eb-47f7-9371-aeac4445bffb",
+    "name": "Button Motorrad vorhanden?",
+    "commands": [{
+      "id": "adf97a73-813f-4fa7-9e7f-c95e0907a3ba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9630a773-bf77-42b0-9b5b-06c23aee9954",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b1808c2-e576-4ac4-903a-499659dfb51d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.tile-red > .h4",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": "Motorrad"
+    }]
   }],
   "suites": [{
     "id": "fa07caa2-734b-4548-bd9d-336c4abe8712",
